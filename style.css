@@ -45,6 +45,13 @@ ul a {
     opacity: 0.65;
 }
 
+@media (max-width: 500px) {
+    ul a {
+      width: 100%; /* width for screens 500px and smaller */
+      margin: 0 auto;
+    }
+  }
+
 ul a:hover {
     color: black;
     background-color: white;    
