@@ -46,7 +46,7 @@ ul a {
 }
 
 @media (max-width: 500px) {
-    ul a {
+    li {
       width: 100%; /* width for screens 500px and smaller */
       margin: 0 auto;
     }
