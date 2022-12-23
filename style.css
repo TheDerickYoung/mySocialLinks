@@ -1,0 +1,55 @@
+body {
+    background-image: url(./cool-background.png);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-family: Bebas Neue;
+    font-size: 48px;
+    margin-bottom: 5px;
+    padding-bottom: 0px;
+    border-bottom: 2px solid white;
+}
+
+p, a {
+    font-family: Bebas Neue;
+    font-size: 21px;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+ul {
+    list-style-type: none;
+    width: 50%;
+    margin: 0 auto;
+}
+
+ul a {
+    border: 2px solid black;
+    border-style: outset;
+    padding: 10px;
+    margin: 10px;
+    display: block;
+    color: white;
+    background-color: black;
+    opacity: 0.65;
+}
+
+ul a:hover {
+    color: black;
+    background-color: white;    
+}
+
+em {
+    text-decoration: underline;
+}
