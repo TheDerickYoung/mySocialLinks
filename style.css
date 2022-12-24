@@ -80,6 +80,7 @@ li {
 .createdBy {
     font-family: Bebas Neue;
     font-size: 18px;
+    text-align: center;
 }
 
 @keyframes bgAnimatedGradient {
