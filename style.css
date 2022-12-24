@@ -3,12 +3,12 @@ body {
     height: 100%;
     width: 100%;
     background-image: linear-gradient(#f7bc46, #46F7BC, #BC46F7);
-    /*background-image: linear-gradient(60deg, #F3E9DC, #C08552, #895737);*/
+   /* background-image: linear-gradient(60deg, #F3E9DC, #C08552, #895737);*/
     /*background-image: linear-gradient(60deg, #5E3023, #C08552, #DAB49D);*/
     background-size: 600% 600%;
     padding: 0;
     margin: 0;
-    animation: bgAnimatedGradient 12.5s infinite linear;
+    animation: bgAnimatedGradient 10.5s infinite linear;
 }
 
 .profileImage {
@@ -45,6 +45,12 @@ body {
     margin-top: 0px;
     /*border: 1px solid black;*/
 }
+
+@media screen and (max-width: 500px) {
+    .profileBio {
+        font-size: 22px;
+    }
+  }
 
 em {
     text-decoration: underline;
