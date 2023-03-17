@@ -73,6 +73,7 @@ em {
     color: white;
     opacity: 0.75;
     text-decoration: none;
+    transition: all 0.3s ease-in-out;
 }
 
 .socialLinksContainer a:hover {
