@@ -113,3 +113,9 @@ li {
       background-position: 0% 85%;
     }
   }
+
+@media screen and (min-width: 768px) {
+  .socialLinksContainer ul li a {
+    width: 50%;
+  }
+}
