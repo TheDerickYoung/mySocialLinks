@@ -115,7 +115,18 @@ li {
   }
 
 @media screen and (min-width: 768px) {
-  .socialLinksContainer ul li a {
+  ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  ul li {
     width: 50%;
+  }
+  
+  ul li a {
+    width: 100%;
   }
 }
